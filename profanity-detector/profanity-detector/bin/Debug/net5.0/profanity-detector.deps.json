@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "profanity-detector/1.0.0": {
+        "runtime": {
+          "profanity-detector.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "profanity-detector/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

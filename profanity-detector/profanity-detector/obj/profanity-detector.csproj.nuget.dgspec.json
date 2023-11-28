@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\AG\\source\\repos\\profanity-checker\\profanity-detector\\profanity-detector\\profanity-detector.csproj",
-        "projectName": "profanity-detector",
+        "projectName": "nikolliervin.profanity-detector",
         "projectPath": "C:\\Users\\AG\\source\\repos\\profanity-checker\\profanity-detector\\profanity-detector\\profanity-detector.csproj",
         "packagesPath": "C:\\Users\\AG\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\AG\\source\\repos\\profanity-checker\\profanity-detector\\profanity-detector\\obj\\",
