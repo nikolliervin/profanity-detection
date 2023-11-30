@@ -10,3 +10,4 @@ C:\Users\AG\source\repos\profanity-checker\profanity-detector\profanity-detector
 C:\Users\AG\source\repos\profanity-checker\profanity-detector\profanity-detector\obj\Debug\net5.0\refint\profanity-detector.dll
 C:\Users\AG\source\repos\profanity-checker\profanity-detector\profanity-detector\obj\Debug\net5.0\profanity-detector.pdb
 C:\Users\AG\source\repos\profanity-checker\profanity-detector\profanity-detector\obj\Debug\net5.0\ref\profanity-detector.dll
+C:\Users\AG\source\repos\profanity-checker\profanity-detector\profanity-detector\bin\Debug\net5.0\Model\Config\ProfanityChecker.zip

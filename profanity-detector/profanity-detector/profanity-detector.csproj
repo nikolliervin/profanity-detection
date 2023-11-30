@@ -20,13 +20,15 @@ It's very easy to use and offers offensive language detection and probabilities 
     <PackageReference Include="Microsoft.ML.LightGbm" Version="1.7.1" />
   </ItemGroup>
   <ItemGroup Label="ProfanityChecker">
-    <None Include="ProfanityChecker.consumption.cs">
+    <None Include="Model\Config\ProfanityChecker.consumption.cs">
       <DependentUpon>ProfanityChecker.mbconfig</DependentUpon>
     </None>
-    <None Include="ProfanityChecker.training.cs">
+    <None Include="Model\Config\ProfanityChecker.training.cs">
       <DependentUpon>ProfanityChecker.mbconfig</DependentUpon>
     </None>
-    <None Include="ProfanityChecker.zip">
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Model\Config\ProfanityChecker.zip">
       <DependentUpon>ProfanityChecker.mbconfig</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

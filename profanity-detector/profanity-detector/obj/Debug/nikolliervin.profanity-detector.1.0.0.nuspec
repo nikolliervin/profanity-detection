@@ -13,7 +13,11 @@ It's very easy to use and offers offensive language detection and probabilities 
     <tags>profanity-detection text-filtering content-moderation language-filter inappropriate-language word-censorship content-sanitization clean-speech offensive-language-filter nuget-package text-analytics content-filter word-filter csharp dotnet linguistics language-processing software-guard code-library security-tool</tags>
     <repository url="https://github.com/nikolliervin/profanity-decetion" />
     <dependencies>
-      <group targetFramework="net5.0" />
+      <group targetFramework="net5.0">
+        <dependency id="Microsoft.ML" version="1.7.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.ML.FastTree" version="1.7.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.ML.LightGbm" version="1.7.1" exclude="Build,Analyzers" />
+      </group>
     </dependencies>
   </metadata>
   <files>
