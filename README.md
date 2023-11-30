@@ -1,4 +1,5 @@
-# Profanity Detector NuGet Package
+# Profanity Detector NuGet Package ![NuGet_project_logo svg](https://github.com/nikolliervin/profanity-decetion/assets/45341025/5346663e-0a3f-4960-b2d6-e6663369dd0a)
+
 
 ## Overview
 
