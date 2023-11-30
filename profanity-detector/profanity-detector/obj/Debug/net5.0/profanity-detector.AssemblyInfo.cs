@@ -13,7 +13,6 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("nikolliervin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyCopyrightAttribute("This package was built under a python profanity detection package.")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("This package helps you guard your applications against offensive language. \r\nIt\'s" +
     " very easy to use and offers offensive language detection and probabilities of a" +
     " word or sentence being offensive.")]

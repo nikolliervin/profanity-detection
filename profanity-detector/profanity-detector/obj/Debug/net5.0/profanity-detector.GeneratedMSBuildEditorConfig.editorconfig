@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = profanity_detector
-build_property.ProjectDir = C:\Users\AG\source\repos\profanity-checker\profanity-detector\profanity-detector\
+build_property.ProjectDir = C:\Users\AG\source\repos\profanity-decetion\profanity-detector\profanity-detector\

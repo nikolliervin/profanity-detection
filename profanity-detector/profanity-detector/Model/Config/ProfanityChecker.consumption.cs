@@ -68,7 +68,8 @@ namespace Profanity_detector
 
         #endregion
 
-        private static string MLNetModelPath = Path.GetFullPath("ProfanityChecker.zip");
+        private static string MLNetModelPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Model", "Config", "ProfanityChecker.zip");
+
 
         public static readonly Lazy<PredictionEngine<ModelInput, ModelOutput>> PredictEngine = new Lazy<PredictionEngine<ModelInput, ModelOutput>>(() => CreatePredictEngine(), true);
 

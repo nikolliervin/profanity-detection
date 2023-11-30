@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d48xapMzdI3AEd6/KyXUfAtREwBt3dseWaMEOv5twCa/wT/ru3a5qc4k3ujgkrhAnS6ROUaI2l5A81YUqAtRxg==",
+  "dgSpecHash": "kb0uaAo7GSWWWYDEx6pdOCb/a27dBH2TG+L6/mGD9HSjOyPmSbxqjUu/bYy5flSGoMUbW4B072scYIVr42SSEQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\AG\\source\\repos\\profanity-checker\\profanity-detector\\profanity-detector\\profanity-detector.csproj",
+  "projectFilePath": "C:\\Users\\AG\\source\\repos\\profanity-decetion\\profanity-detector\\profanity-detector\\profanity-detector.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AG\\.nuget\\packages\\lightgbm\\2.3.1\\lightgbm.2.3.1.nupkg.sha512",
     "C:\\Users\\AG\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",

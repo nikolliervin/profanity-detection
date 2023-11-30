@@ -7,9 +7,9 @@
     <authors>nikolliervin</authors>
     <license type="expression">MIT</license>
     <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>README.md</readme>
     <description>This package helps you guard your applications against offensive language. 
 It's very easy to use and offers offensive language detection and probabilities of a word or sentence being offensive.</description>
-    <copyright>This package was built under a python profanity detection package.</copyright>
     <tags>profanity-detection text-filtering content-moderation language-filter inappropriate-language word-censorship content-sanitization clean-speech offensive-language-filter nuget-package text-analytics content-filter word-filter csharp dotnet linguistics language-processing software-guard code-library security-tool</tags>
     <repository url="https://github.com/nikolliervin/profanity-decetion" />
     <dependencies>
@@ -21,6 +21,7 @@ It's very easy to use and offers offensive language detection and probabilities 
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\AG\source\repos\profanity-checker\profanity-detector\profanity-detector\bin\Debug\net5.0\profanity-detector.dll" target="lib\net5.0\profanity-detector.dll" />
+    <file src="C:\Users\AG\source\repos\profanity-decetion\profanity-detector\profanity-detector\bin\Debug\net5.0\profanity-detector.dll" target="lib\net5.0\profanity-detector.dll" />
+    <file src="C:\Users\AG\source\repos\profanity-decetion\profanity-detector\README.md" target="\README.md" />
   </files>
 </package>

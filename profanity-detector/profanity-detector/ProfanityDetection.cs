@@ -18,7 +18,7 @@ namespace profanity_detector
         /// <returns>
         ///   <c>true</c> if the content is detected as toxic; otherwise, <c>false</c>.
         /// </returns>
-        public bool isToxic(string content)
+        public bool Detect(string content)
         {
             var resp = _modelService.Detect(content);
 
