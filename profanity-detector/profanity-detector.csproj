@@ -3,6 +3,7 @@
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>profanity_detector</RootNamespace>
     <PackageId>nikolliervin.$(AssemblyName)</PackageId>
+    <Version>1.0.1</Version>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>ProfanityGuard</Title>
     <Authors>nikolliervin</Authors>

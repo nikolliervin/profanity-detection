@@ -1,12 +1,22 @@
-# Profanity Detector NuGet Package
+# Profanity Detector NuGet Package 
+
 
 ## Overview
 
 This package is designed to help you easily identify and detect profanity or bad words within a given sentence or string. It leverages a simple binary classifier that has been built and trained for accurate and efficient detection of inappropriate language.
+The model was created using ML.Net and the dataset for training was obtained from [Surge AI](https://www.surgehq.ai/datasets/toxicity-dataset)
 
 ## Installation
 
 To get started, install the Profanity Detector NuGet package into your project. You can do this using the following command in the Package Manager Console:
+
+```bash
+NuGet\Install-Package nikolliervin.profanity-detector -Version 1.0.1
+```
+```bash
+dotnet add package nikolliervin.profanity-detector --version 1.0.1
+```
+
 
 ## Usage
 
@@ -50,6 +60,5 @@ While the Profanity Detector is effective in identifying common profanity and ba
 
 ## Feedback and Contributions
 
-We welcome your feedback! If you encounter any issues, have suggestions for improvement, or want to contribute to the project, please visit our GitHub repository https://github.com/nikolliervin/profanity-decetion and create an issue or pull request.
+I welcome your feedback! If you encounter any issues, have suggestions for improvement, or want to contribute to the project, please visit my GitHub [repository](https://github.com/nikolliervin/profanity-decetion) and create an issue or pull request.
 
-Thank you for using the Profanity Detector NuGet package! We hope it proves to be a valuable tool in maintaining a clean and respectful environment within your applications.

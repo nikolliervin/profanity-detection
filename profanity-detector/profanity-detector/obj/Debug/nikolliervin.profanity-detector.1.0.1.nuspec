@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>nikolliervin.profanity-detector</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>ProfanityGuard</title>
     <authors>nikolliervin</authors>
     <license type="expression">MIT</license>
@@ -10,6 +10,7 @@
     <readme>README.md</readme>
     <description>This package helps you guard your applications against offensive language. 
 It's very easy to use and offers offensive language detection and probabilities of a word or sentence being offensive.</description>
+    <releaseNotes>Fixed the path to the ml model</releaseNotes>
     <tags>profanity-detection text-filtering content-moderation language-filter inappropriate-language word-censorship content-sanitization clean-speech offensive-language-filter nuget-package text-analytics content-filter word-filter csharp dotnet linguistics language-processing software-guard code-library security-tool</tags>
     <repository url="https://github.com/nikolliervin/profanity-decetion" />
     <dependencies>
