@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>profanity_detector</RootNamespace>
+    <PackageId>nikolliervin.$(AssemblyName)</PackageId>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>ProfanityGuard</Title>
+    <Authors>nikolliervin</Authors>
+    <Company>nikolliervin</Company>
+    <Description>This package helps you guard your applications against offensive language. 
+It's very easy to use and offers offensive language detection and probabilities of a word or sentence being offensive.</Description>
+    <Copyright>This package was built under a python profanity detection package.</Copyright>
+    <RepositoryUrl>https://github.com/nikolliervin/profanity-decetion</RepositoryUrl>
+    <PackageTags>profanity-detection; text-filtering; content-moderation; language-filter; inappropriate-language; word-censorship; content-sanitization; clean-speech; offensive-language-filter; nuget-package; text-analytics; content-filter; word-filter; csharp; dotnet; linguistics; language-processing; software-guard; code-library; security-tool</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ML" Version="1.7.1" />
+    <PackageReference Include="Microsoft.ML.FastTree" Version="1.7.1" />
+    <PackageReference Include="Microsoft.ML.LightGbm" Version="1.7.1" />
+  </ItemGroup>
+  <ItemGroup Label="ProfanityChecker">
+    <None Include="Model\Config\ProfanityChecker.consumption.cs">
+      <DependentUpon>ProfanityChecker.mbconfig</DependentUpon>
+    </None>
+    <None Include="Model\Config\ProfanityChecker.training.cs">
+      <DependentUpon>ProfanityChecker.mbconfig</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Model\Config\ProfanityChecker.zip">
+      <DependentUpon>ProfanityChecker.mbconfig</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

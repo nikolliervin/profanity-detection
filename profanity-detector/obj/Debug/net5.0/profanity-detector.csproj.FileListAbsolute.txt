@@ -1,0 +1,13 @@
+C:\Users\AG\source\repos\profanity-checker\profanity-detector\profanity-detector\bin\Debug\net5.0\profanity-detector.deps.json
+C:\Users\AG\source\repos\profanity-checker\profanity-detector\profanity-detector\bin\Debug\net5.0\profanity-detector.dll
+C:\Users\AG\source\repos\profanity-checker\profanity-detector\profanity-detector\bin\Debug\net5.0\profanity-detector.pdb
+C:\Users\AG\source\repos\profanity-checker\profanity-detector\profanity-detector\obj\Debug\net5.0\profanity-detector.csproj.AssemblyReference.cache
+C:\Users\AG\source\repos\profanity-checker\profanity-detector\profanity-detector\obj\Debug\net5.0\profanity-detector.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AG\source\repos\profanity-checker\profanity-detector\profanity-detector\obj\Debug\net5.0\profanity-detector.AssemblyInfoInputs.cache
+C:\Users\AG\source\repos\profanity-checker\profanity-detector\profanity-detector\obj\Debug\net5.0\profanity-detector.AssemblyInfo.cs
+C:\Users\AG\source\repos\profanity-checker\profanity-detector\profanity-detector\obj\Debug\net5.0\profanity-detector.csproj.CoreCompileInputs.cache
+C:\Users\AG\source\repos\profanity-checker\profanity-detector\profanity-detector\obj\Debug\net5.0\profanity-detector.dll
+C:\Users\AG\source\repos\profanity-checker\profanity-detector\profanity-detector\obj\Debug\net5.0\refint\profanity-detector.dll
+C:\Users\AG\source\repos\profanity-checker\profanity-detector\profanity-detector\obj\Debug\net5.0\profanity-detector.pdb
+C:\Users\AG\source\repos\profanity-checker\profanity-detector\profanity-detector\obj\Debug\net5.0\ref\profanity-detector.dll
+C:\Users\AG\source\repos\profanity-checker\profanity-detector\profanity-detector\bin\Debug\net5.0\Model\Config\ProfanityChecker.zip
