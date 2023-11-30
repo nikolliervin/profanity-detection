@@ -2,7 +2,8 @@
 
 namespace profanity_detector
 {
-    public class Class1
+    public class ProfanityDetection
     {
+
     }
 }

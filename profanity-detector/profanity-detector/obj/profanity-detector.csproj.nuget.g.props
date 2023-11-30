@@ -13,4 +13,12 @@
     <SourceRoot Include="C:\Users\AG\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.ml\1.7.1\build\netstandard2.0\Microsoft.ML.props" Condition="Exists('$(NuGetPackageRoot)microsoft.ml\1.7.1\build\netstandard2.0\Microsoft.ML.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.ml.fasttree\1.7.1\build\netstandard2.0\Microsoft.ML.FastTree.props" Condition="Exists('$(NuGetPackageRoot)microsoft.ml.fasttree\1.7.1\build\netstandard2.0\Microsoft.ML.FastTree.props')" />
+    <Import Project="$(NuGetPackageRoot)lightgbm\2.3.1\build\LightGBM.props" Condition="Exists('$(NuGetPackageRoot)lightgbm\2.3.1\build\LightGBM.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Users\AG\.nuget\packages\newtonsoft.json\10.0.3</PkgNewtonsoft_Json>
+  </PropertyGroup>
 </Project>

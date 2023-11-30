@@ -45,6 +45,20 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[1.7.1, )"
+            },
+            "Microsoft.ML.FastTree": {
+              "target": "Package",
+              "version": "[1.7.1, )"
+            },
+            "Microsoft.ML.LightGbm": {
+              "target": "Package",
+              "version": "[1.7.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
