@@ -4,12 +4,12 @@
     <RootNamespace>profanity_detector</RootNamespace>
     <PackageId>nikolliervin.$(AssemblyName)</PackageId>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-	 <Version>1.0.1</Version>	  
+	 <Version>1.0.5</Version>	  
     <Title>ProfanityGuard</Title>
     <Authors>nikolliervin</Authors>
     <Company>nikolliervin</Company>
     <Description>This package helps you guard your applications against offensive language. 
-It's very easy to use and offers offensive language detection and probabilities of a word or sentence being offensive.</Description>
+It's very easy to use and offers offensive language detection of a given string or sentence.</Description>
     <RepositoryUrl>https://github.com/nikolliervin/profanity-decetion</RepositoryUrl>
     <PackageTags>profanity-detection; text-filtering; content-moderation; language-filter; inappropriate-language; word-censorship; content-sanitization; clean-speech; offensive-language-filter; nuget-package; text-analytics; content-filter; word-filter; csharp; dotnet; linguistics; language-processing; software-guard; code-library; security-tool</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>

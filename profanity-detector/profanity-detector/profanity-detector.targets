@@ -1,0 +1,11 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ProfanityCheckerFile Include="$(MSBuildThisFileDirectory)\Model\Config\ProfanityChecker.zip" />
+	</ItemGroup>
+
+	<Target Name="CopyProfanityChecker" BeforeTargets="Build">
+		<Message Text="Copying ProfanityChecker.zip to $(TargetDir)" Importance="high" />
+		<Copy SourceFiles="@(ProfanityCheckerFile)" DestinationFolder="$(TargetDir)" />
+		<Message Text="ProfanityChecker.zip copied successfully!" Importance="high" />
+	</Target>
+</Project>

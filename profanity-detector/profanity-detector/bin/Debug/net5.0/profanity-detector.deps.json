@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "profanity-detector/1.0.1": {
+      "profanity-detector/1.0.5": {
         "dependencies": {
           "Microsoft.ML": "1.7.1",
           "Microsoft.ML.FastTree": "1.7.1",
@@ -1000,7 +1000,7 @@
     }
   },
   "libraries": {
-    "profanity-detector/1.0.1": {
+    "profanity-detector/1.0.5": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

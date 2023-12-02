@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\AG\\source\\repos\\profanity-decetion\\profanity-detector\\profanity-detector\\profanity-detector.csproj": {
-      "version": "1.0.1",
+      "version": "1.0.5",
       "restore": {
         "projectUniqueName": "C:\\Users\\AG\\source\\repos\\profanity-decetion\\profanity-detector\\profanity-detector\\profanity-detector.csproj",
         "projectName": "nikolliervin.profanity-detector",
@@ -27,7 +27,8 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\AG": {},
+          "C:\\Users\\AG\\Desktop\\pkg": {},
+          "C:\\Users\\AG\\source\\repos": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

@@ -5,6 +5,9 @@ using System;
 using System.Linq;
 using System.IO;
 using System.Collections.Generic;
+using System.Net.Http;
+using System.Threading.Tasks;
+
 namespace Profanity_detector
 {
     public partial class ProfanityChecker
@@ -67,9 +70,7 @@ namespace Profanity_detector
         }
 
         #endregion
-
-        private static string MLNetModelPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Model", "Config", "ProfanityChecker.zip");
-
+        private static string MLNetModelPath;
 
         public static readonly Lazy<PredictionEngine<ModelInput, ModelOutput>> PredictEngine = new Lazy<PredictionEngine<ModelInput, ModelOutput>>(() => CreatePredictEngine(), true);
 
@@ -87,8 +88,44 @@ namespace Profanity_detector
         private static PredictionEngine<ModelInput, ModelOutput> CreatePredictEngine()
         {
             var mlContext = new MLContext();
+
+           
+            EnsureModelDownloaded();
+
             ITransformer mlModel = mlContext.Model.Load(MLNetModelPath, out var _);
             return mlContext.Model.CreatePredictionEngine<ModelInput, ModelOutput>(mlModel);
+        }
+
+        private static void EnsureModelDownloaded()
+        {
+            string fileName = "ProfanityChecker.zip";
+            MLNetModelPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, fileName);
+
+            if (!File.Exists(MLNetModelPath))
+            {
+                DownloadFileAsync(MLNetModelPath).Wait();
+            }
+        }
+
+        private static async Task DownloadFileAsync(string destinationPath)
+        {
+            using (var httpClient = new HttpClient())
+            {
+                var downloadUrl = "https://drive.google.com/uc?id=1bU2cj1UaoY8jj9CXYYvP9ika7G9TwjtG";
+
+                var response = await httpClient.GetAsync(downloadUrl);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    using (var fileStream = File.Create(destinationPath))
+                    {
+                        await response.Content.CopyToAsync(fileStream);
+                        fileStream.Close();
+                    }
+
+                }
+            
+            }
         }
     }
 }

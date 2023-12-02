@@ -1,6 +1,4 @@
 # Profanity Detector NuGet Package 
-
-
 ## Overview
 
 This package is designed to help you easily identify and detect profanity or bad words within a given sentence or string. It leverages a simple binary classifier that has been built and trained for accurate and efficient detection of inappropriate language.
@@ -33,7 +31,7 @@ class Program
         var profanityDetector = new ProfanityDetection();
 
         // Detect profanity in a string
-        var hasProfanity = profanityDetector.Detect("string to detect");
+        var hasProfanity = profanityDetector.isToxic("string to detect");
 
         // 'hasProfanity' will be true if profanity is detected, otherwise false
         if (hasProfanity)

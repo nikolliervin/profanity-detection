@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>nikolliervin.profanity-detector</id>
+    <version>1.0.1</version>
+    <title>ProfanityGuard</title>
+    <authors>nikolliervin</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>README.md</readme>
+    <description>This package helps you guard your applications against offensive language. 
+It's very easy to use and offers offensive language detection and probabilities of a word or sentence being offensive.</description>
+    <releaseNotes>Fixed the path to the ml model</releaseNotes>
+    <tags>profanity-detection text-filtering content-moderation language-filter inappropriate-language word-censorship content-sanitization clean-speech offensive-language-filter nuget-package text-analytics content-filter word-filter csharp dotnet linguistics language-processing software-guard code-library security-tool</tags>
+    <repository url="https://github.com/nikolliervin/profanity-decetion" />
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="Microsoft.ML" version="1.7.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.ML.FastTree" version="1.7.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.ML.LightGbm" version="1.7.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\AG\source\repos\profanity-decetion\profanity-detector\profanity-detector\bin\Debug\net5.0\profanity-detector.dll" target="lib\net5.0\profanity-detector.dll" />
+    <file src="C:\Users\AG\source\repos\profanity-decetion\profanity-detector\README.md" target="\README.md" />
+  </files>
+</package>
