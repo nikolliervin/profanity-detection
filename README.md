@@ -54,6 +54,12 @@ class Program
 
 The Profanity Detector utilizes a simple binary classifier that has been built and trained to distinguish between clean and profane language. The underlying algorithm analyzes the input string and returns `true` if it contains bad words and `false` otherwise.
 
+# Model Accuracy
+
+The machine learning model, trained using ML.NET, showed a good level of accuracy on the given dataset.
+
+- **Accuracy:** 80.90%
+
 ## Note
 
 While the Profanity Detector is effective in identifying common profanity and bad words, but it may not be exhaustive. I am actively working to increase the accuracy of the detection.
