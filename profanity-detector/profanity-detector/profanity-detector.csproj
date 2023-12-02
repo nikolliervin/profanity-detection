@@ -4,7 +4,7 @@
     <RootNamespace>profanity_detector</RootNamespace>
     <PackageId>nikolliervin.$(AssemblyName)</PackageId>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-	 <Version>1.0.5</Version>	  
+	 <Version>1.0.6</Version>	  
     <Title>ProfanityGuard</Title>
     <Authors>nikolliervin</Authors>
     <Company>nikolliervin</Company>
