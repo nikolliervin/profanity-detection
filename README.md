@@ -33,7 +33,7 @@ class Program
         var profanityDetector = new ProfanityDetection();
 
         // Detect profanity in a string
-        var hasProfanity = profanityDetector.Detect("string to detect");
+        var hasProfanity = profanityDetector.isToxic("string to detect");
 
         // 'hasProfanity' will be true if profanity is detected, otherwise false
         if (hasProfanity)
