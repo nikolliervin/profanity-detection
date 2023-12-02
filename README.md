@@ -11,10 +11,10 @@ The model was created using ML.Net and the dataset for training was obtained fro
 To get started, install the Profanity Detector NuGet package into your project. You can do this using the following command in the Package Manager Console:
 
 ```bash
-NuGet\Install-Package nikolliervin.profanity-detector -Version 1.0.1
+NuGet\Install-Package nikolliervin.profanity-detector -Version 1.0.5
 ```
 ```bash
-dotnet add package nikolliervin.profanity-detector --version 1.0.1
+dotnet add package nikolliervin.profanity-detector --version 1.0.5
 ```
 
 
